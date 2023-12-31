@@ -1,13 +1,13 @@
 L07 All the images
 ------------------
+Complete sample code for Module 7:
 
 # Overview
 
 ## 2023 Update
-- use packages & move initData to DataSource class
-
-Complete sample code for Module 7:
-+ Branch `extension`: to handle the user's update on Location's visited attribute
+- use packages to organise the components 
+- move initData to DataSource class
+- Handle the user's update on Location's visited attribute
   in the detailed activity
 
 To further explore lists, we will look at RecyclerView. This is a new list widget and is the default way now to build lists.
