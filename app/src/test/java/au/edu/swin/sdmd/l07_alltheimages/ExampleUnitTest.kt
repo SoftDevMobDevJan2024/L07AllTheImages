@@ -1,4 +1,4 @@
-package au.edu.swin.sdmd.l07_alltheimages_2023
+package au.edu.swin.sdmd.l07_alltheimages
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package au.edu.swin.sdmd.l07_alltheimages_2023
+package au.edu.swin.sdmd.l07_alltheimages
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
