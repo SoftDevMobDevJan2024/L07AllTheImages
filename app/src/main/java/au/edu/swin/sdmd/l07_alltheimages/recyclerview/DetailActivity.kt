@@ -44,8 +44,6 @@ class DetailActivity : AppCompatActivity() {
 
             vVisited.isChecked = it.visited
         }
-
-
     }
 
     /**

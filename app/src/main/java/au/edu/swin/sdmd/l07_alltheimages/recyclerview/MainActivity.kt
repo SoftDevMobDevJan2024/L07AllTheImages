@@ -41,8 +41,9 @@ class MainActivity : AppCompatActivity() {
     // version 3.0: use DataSource class
     data = DataSource(this.resources).getData()
 
-    adapter = RecyclerListAdapter(data) { location: Location, i: Int ->
-      showDetail(location, i)
+    adapter = RecyclerListAdapter(data) {
+      location: Location,
+      i: Int -> showDetail(location, i)
     }
     listView.adapter = adapter
 
