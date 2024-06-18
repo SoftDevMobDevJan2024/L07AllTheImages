@@ -1,5 +1,6 @@
 package au.edu.swin.sdmd.l07_alltheimages.recyclerview
 
+import android.graphics.Color
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -51,6 +52,13 @@ class RecyclerListAdapter(private val data: List<Location>,
 
         fun bind(item: Location, position: Int) {
             name.text = item.name
+
+            //todo: update font color based on visited status
+            /*when {
+                item.visited -> name.setTextColor(Color.RED)
+                else -> name.setTextColor(Color.BLACK)
+            }*/
+
             v.setOnClickListener { listener(item, position) }
         }
     }
